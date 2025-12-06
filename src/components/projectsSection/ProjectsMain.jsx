@@ -25,7 +25,7 @@ const projects = [
     name: "Barber Shop Website",
     align: "right",
     image: Barber, 
-    link: "https://star-brick.vercel.app/",
+    link: "https://barbershop-delta-woad.vercel.app/",
   },
    {
     name: "NewsMag Website",
@@ -37,7 +37,7 @@ const projects = [
     name: "Love Proposal",
     align: "right",
     image: Love,  
-    link: "https://fit-nexus-seven.vercel.app/",
+    link: "https://love-proposal-846f.onrender.com/",
   },
  
 ];
