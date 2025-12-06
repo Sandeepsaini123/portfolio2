@@ -23,7 +23,7 @@ const FooterMain = () => {
     <div className="px-4">
       <div className="w-full h-[1px] bg-lightGrey mt-24"></div>
       <div className="md:flex justify-between mt-4 max-w-[1200px] mx-auto sm:hidden">
-        <p className="text-3xl text-lightGrey ">Mohammad Umair</p>
+        <p className="text-3xl text-lightGrey ">Sandeep Saini</p>
         <ul className="flex gap-4 text-lightGrey text-xl">
           {footerLinks.map((item, index) => {
             return (
@@ -44,7 +44,7 @@ const FooterMain = () => {
         </ul>
       </div>
       <p className="max-w-[1200px] mx-auto text-right mt-2 mb-12 text-sm text-lightBrown">
-        © 2025 Umair | All Rights Reserved.
+        © 2025 Sandeep Saini | All Rights Reserved.
       </p>
     </div>
   );

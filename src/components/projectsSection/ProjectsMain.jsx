@@ -2,41 +2,41 @@ import { motion } from "framer-motion";
 import { fadeIn } from "../../framerMotion/variants";
 import ProjectsText from "./ProjectsText";
 import SingleProject from "./SingleProject";
-import web1 from "../../assets/images/website-img-1.png"; 
-import Brick from "../../assets/images/brick.png"; 
-import Edumall from "../../assets/images/edumal.png"; 
-import BaySkin from "../../assets/images/BaySkinn.png"
-import PizzaOven from "../../assets/images/pizzaoven.png"
+import Love from "../../assets/images/love.png"; 
+import NewsMag from "../../assets/images/newsmag.png"; 
+import Barber from "../../assets/images/barber.png"; 
+import SainiRestaurant from "../../assets/images/sainirestaurant.png"
+import AcsTech from "../../assets/images/acstech.PNG"
 
 const projects = [
   {
-    name: "Pizza Oven By Saif",
+    name: "Acstechconsulting Website",
     align: "right",
-    image: PizzaOven,  
-    link: "https://pizza-oven-by-saif.vercel.app/",
+    image: AcsTech,  
+    link: "https://www.acstechconsulting.com/",
   },
   {
-    name: "BaySkin Skin Care Clinic",
+    name: "Saini Restaurant",
     align: "left",
-    image: BaySkin,  
-    link: "https://bayskin.in/",
+    image: SainiRestaurant,  
+    link: "https://saini-restaurant.netlify.app/",
   },
   {
-    name: "Brick Kiln Website",
+    name: "Barber Shop Website",
     align: "right",
-    image: Brick, 
+    image: Barber, 
     link: "https://star-brick.vercel.app/",
   },
    {
-    name: "EduMall",
+    name: "NewsMag Website",
     align: "left",
-    image: Edumall, 
-    link: "https://edumall-ten.vercel.app/",
+    image: NewsMag, 
+    link: "https://news-mag-d54a.onrender.com/",
   },
   {
-    name: "FitNexus Fitness Platform",
+    name: "Love Proposal",
     align: "right",
-    image: web1,  
+    image: Love,  
     link: "https://fit-nexus-seven.vercel.app/",
   },
  

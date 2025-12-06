@@ -6,7 +6,7 @@ import { useSelector } from "react-redux";
 import { motion } from "framer-motion";
 
 const NavbarMain = () => {
-  const menuOpen = useSelector((state) => state.menu.menuOpen);
+  const menuOpen = useSelector((state) => state.menu.isMenuOpen);
 
   const navbarVariants = {
     hidden: { y: -100, opacity: 0 },

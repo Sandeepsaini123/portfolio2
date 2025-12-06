@@ -1,12 +1,12 @@
-import { FaHtml5, FaNode } from "react-icons/fa";
+import { FaAngular, FaHtml5, FaNode } from "react-icons/fa";
 import { FaCss3Alt } from "react-icons/fa";
 import { IoLogoJavascript } from "react-icons/io";
-import { SiTypescript } from "react-icons/si";
+import { SiPostman, SiTypescript } from "react-icons/si";
 import { FaReact } from "react-icons/fa";
 import { FaGithub } from "react-icons/fa";
 import { FaFigma } from "react-icons/fa";
 import { FaNodeJs } from "react-icons/fa";
-import { RiTailwindCssFill } from "react-icons/ri";
+import { RiBootstrapFill, RiTailwindCssFill } from "react-icons/ri";
 import { motion } from "framer-motion";
 import { fadeIn } from "../../framerMotion/variants";
 
@@ -32,8 +32,16 @@ const skills = [
     icon: FaReact,
   },
   {
+    skill: "Angular",
+    icon: FaAngular,
+  },
+  {
     skill: "NodeJs",
-    icon : FaNodeJs,
+    icon: FaNodeJs,
+  },
+  {
+    skill:"Postman",
+    icon: SiPostman,
   },
   {
     skill: "GitHub",
@@ -47,6 +55,10 @@ const skills = [
     skill: "TailwindCSS",
     icon: RiTailwindCssFill,
   },
+  {
+    skill: "Bootstrap",
+    icon: RiBootstrapFill,
+  }
 ];
 
 const AllSkillsSM = () => {

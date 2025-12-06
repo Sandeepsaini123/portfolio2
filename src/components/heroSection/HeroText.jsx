@@ -11,7 +11,7 @@ const HeroText = () => {
         viewport={{ once: false, amount: 0 }}
         className="lg:text-2xl sm:text-xl  uppercase text-lightGrey "
       >
-        Front-End Web Developer
+        Software Engineer
       </motion.h2>
       <motion.h1
         variants={fadeIn("right", 0.4)}
@@ -20,8 +20,8 @@ const HeroText = () => {
         viewport={{ once: false, amount: 0 }}
         className="md:text-[2.8rem] lg:text-6xl sm:text-4xl text-orange font-bold uppercase"
       >
-        Mohammad <br className="sm:hidden md:block" />
-        Umair
+        Sandeep <br className="sm:hidden md:block" />
+        Saini
       </motion.h1>
       <motion.p
         variants={fadeIn("up", 0.6)}
@@ -30,7 +30,7 @@ const HeroText = () => {
         viewport={{ once: false, amount: 0 }}
         className="text-lg mt-4"
       >
-       A Passionate Frontend Web Developer  <br /> specializing in React and modern web technologies.
+       Passionate about creating elegant solutions to complex problems. <br /> Specialized in building scalable web applications with modern technologies.
       </motion.p>
     </div>
   );
