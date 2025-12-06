@@ -3,10 +3,10 @@ import { fadeIn } from "../../framerMotion/variants";
 import ProjectsText from "./ProjectsText";
 import SingleProject from "./SingleProject";
 import Love from "../../assets/images/love1.png"; 
-import NewsMag from "../../assets/images/newsmag.png"; 
-import Barber from "../../assets/images/barber.png"; 
-import SainiRestaurant from "../../assets/images/sainirestaurant.png"
-import AcsTech from "../../assets/images/acstech.png"
+import NewsMag from "../../assets/images/newsmag1.png"; 
+import Barber from "../../assets/images/barber1.png"; 
+import SainiRestaurant from "../../assets/images/sainirestaurant1.png"
+import AcsTech from "../../assets/images/acstech1.png"
 
 const projects = [
   {
